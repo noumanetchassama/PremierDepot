@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinPrecision | Gestion de Patrimoine Haute Précision</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">FinPrecision</a>
+      <nav class="nav" id="nav">
+        <a href="#" class="nav__link nav__link--active">Produits</a>
+        <a href="#" class="nav__link">Solutions</a>
+        <a href="#" class="nav__link">Tarifs</a>
+        <a href="#" class="nav__link">À propos</a>
+      </nav>
+      <div class="header__actions">
+        <button type="button" class="btn-text">Connexion</button>
+        <button type="button" class="btn btn--green">Ouvrir un compte</button>
+      </div>
+      <button type="button" class="menu-btn" id="menuBtn" aria-label="Menu">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <span class="badge">Plateforme institutionnelle</span>
+          <h1>Prenez le contrôle de votre avenir financier</h1>
+          <p class="hero__text">
+            Une gestion de patrimoine intelligente, sécurisée et performante.
+            Rejoignez des milliers d'investisseurs qui nous font confiance pour
+            naviguer dans la complexité des marchés mondiaux.
+          </p>
+          <div class="hero__buttons">
+            <button type="button" class="btn btn--green btn--lg">
+              Commencer maintenant
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+            <button type="button" class="btn btn--outline btn--lg">
+              Voir la démo
+              <span class="material-symbols-outlined">play_circle</span>
+            </button>
+          </div>
+          <div class="hero__proof">
+            <div class="avatars">
+              <img src="images/Photographer.jfif" alt="artisans">
+              <img src="images/woman.png" alt="photo">
+              <img src="images/réseaux.jfif" alt="Fonctionnaires">
+            </div>
+            <p><strong>+500k</strong> utilisateurs actifs cette semaine</p>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__visual-bg"></div>
+          <div class="portfolio-card animate-float">
+            <div class="portfolio-card__head">
+              <h3>Performance Portfolio</h3>
+              <span class="portfolio-card__badge">+12.4%</span>
+            </div>
+            <div class="portfolio-card__chart">
+              <div class="graph-gradient"></div>
+              <svg viewBox="0 0 400 200" preserveAspectRatio="none">
+                <path d="M0 150 Q 50 140, 100 160 T 200 100 T 300 80 T 400 40" fill="none" stroke="#10B981" stroke-width="3"/>
+              </svg>
+            </div>
+            <div class="portfolio-card__stats">
+              <div>
+                <span class="label">Actifs totaux</span>
+                <strong>142.500.000 FCFA</strong>
+              </div>
+              <div>
+                <span class="label">Risque</span>
+                <strong>Modéré</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partenaires -->
+    <section class="partners">
+      <div class="container">
+        <p class="partners__title">Partenaires de confiance & sécurité</p>
+        <div class="partners__list">
+          <div><span class="material-symbols-outlined">security</span> Secure Bank</div>
+          <div><span class="material-symbols-outlined">verified_user</span> Trust Group</div>
+          <div><span class="material-symbols-outlined">account_balance</span> Global Invest</div>
+          <div><span class="material-symbols-outlined">encrypted</span> 256-bit SSL</div>
+          <div><span class="material-symbols-outlined">monitoring</span> Data Prime</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fonctionnalités -->
+    <section class="features">
+      <div class="container">
+        <div class="section-head">
+          <h2>Une expertise technologique au service de vos actifs</h2>
+          <p>Nous combinons l'intelligence artificielle et l'expertise humaine pour offrir une expérience d'investissement inégalée.</p>
+        </div>
+        <div class="bento-grid">
+          <article class="feature-card feature-card--wide">
+            <div class="feature-card__icon"><span class="material-symbols-outlined icon-fill">security</span></div>
+            <h3>Sécurité Maximale</h3>
+            <p>Vos données et vos fonds sont protégés par un chiffrement AES-256 de niveau bancaire et une authentification multi-facteurs biométrique.</p>
+            <a href="#" class="feature-card__link">En savoir plus <span class="material-symbols-outlined">chevron_right</span></a>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__icon"><span class="material-symbols-outlined icon-fill">query_stats</span></div>
+            <h3>Analyses Temps Réel</h3>
+            <p>Visualisez vos performances avec une latence de moins de 50ms sur tous les marchés.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__icon"><span class="material-symbols-outlined icon-fill">account_balance_wallet</span></div>
+            <h3>Gestion de Portefeuille</h3>
+            <p>Rééquilibrage automatique et optimisation fiscale intelligente pour chaque compte.</p>
+          </article>
+          <article class="feature-card feature-card--wide feature-card--dark">
+            <div class="feature-card__icon feature-card__icon--light"><span class="material-symbols-outlined icon-fill">support_agent</span></div>
+            <h3>Support Expert 24/7</h3>
+            <p>Une équipe de conseillers financiers dédiés est à votre disposition pour vous accompagner dans vos décisions stratégiques, quel que soit votre fuseau horaire.</p>
+            <span class="feature-card__deco material-symbols-outlined">hub</span>
+          </article>
+          <div class="feature-card feature-card--wide feature-card--image">
+            <img src="images/télécharger (6).jfif" alt="Analyses financières">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistiques -->
+    <section class="stats-bar">
+      <div class="container stats-bar__grid">
+        <div><span class="stats-bar__num">500k+</span><span class="stats-bar__label">Utilisateurs actifs</span></div>
+        <div><span class="stats-bar__num">12Mds FCFA</span><span class="stats-bar__label">Actifs Gérés</span></div>
+        <div><span class="stats-bar__num">15</span><span class="stats-bar__label">Pays</span></div>
+      </div>
+    </section>
+
+    <!-- Témoignage -->
+    <section class="testimonial">
+      <div class="container">
+        <div class="testimonial__box">
+          <span class="testimonial__quote material-symbols-outlined">format_quote</span>
+          <div class="testimonial__grid">
+            <div class="testimonial__text">
+              <blockquote>"FinPrecision a transformé notre approche de l'investissement. La clarté des données et la réactivité de l'interface nous permettent de prendre des décisions critiques en quelques secondes, avec une confiance totale."</blockquote>
+              <p class="testimonial__author">Marc-Antoine de Villeneuve</p>
+              <p class="testimonial__role">CEO, BlueHorizon Equity</p>
+            </div>
+            <div class="testimonial__photo">
+              <div class="testimonial__frame"></div>
+              <img src="images/inggbaa.jpeg" alt="Marc-Antoine de Villeneuve">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tarifs -->
+    <section class="pricing">
+      <div class="container">
+        <div class="section-head">
+          <h2>Une tarification transparente pour tous les investisseurs</h2>
+          <p>Choisissez le plan qui correspond à vos ambitions financières. Aucun frais caché, une clarté totale.</p>
+        </div>
+        <div class="pricing__grid">
+          <article class="price-card">
+            <h3>Standard</h3>
+            <p class="price-card__price">0 FCFA <small>/mois</small></p>
+            <p class="price-card__desc">Idéal pour débuter votre parcours d'investissement.</p>
+            <ul>
+              <li><span class="material-symbols-outlined">check_circle</span> Analyses de base</li>
+              <li><span class="material-symbols-outlined">check_circle</span> 1 compte d'investissement</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Support standard</li>
+            </ul>
+            <button type="button" class="btn btn--outline btn--block">Choisir Standard</button>
+          </article>
+          <article class="price-card price-card--featured">
+            <span class="price-card__tag">Plus populaire</span>
+            <h3>Pro</h3>
+            <p class="price-card__price">19.000 FCFA <small>/mois</small></p>
+            <p class="price-card__desc">Pour les investisseurs actifs exigeants.</p>
+            <ul>
+              <li><span class="material-symbols-outlined">check_circle</span> Analyses avancées & IA</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Comptes illimités</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Support prioritaire 24/7</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Alertes en temps réel</li>
+            </ul>
+            <button type="button" class="btn btn--dark btn--block">Choisir Pro</button>
+          </article>
+          <article class="price-card">
+            <h3>Entreprise</h3>
+            <p class="price-card__price">Sur mesure</p>
+            <p class="price-card__desc">Solutions institutionnelles complètes.</p>
+            <ul>
+              <li><span class="material-symbols-outlined">check_circle</span> Accès API complet</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Gestionnaire dédié</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Marque blanche</li>
+            </ul>
+            <button type="button" class="btn btn--outline btn--block">Contacter la vente</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <div class="container faq__inner">
+        <h2>Questions fréquentes</h2>
+        <div class="faq__list">
+          <details class="faq__item" open>
+            <summary>
+              Comment mes fonds sont-ils protégés ?
+              <span class="material-symbols-outlined faq__icon">expand_more</span>
+            </summary>
+            <p>Vos fonds sont détenus sur des comptes ségrégués auprès de banques partenaires de rang 1. Ils sont protégés par le mécanisme de garantie des dépôts jusqu'à 100 000 € par client, conformément à la réglementation européenne.</p>
+          </details>
+          <details class="faq__item">
+            <summary>
+              Quels sont les frais ?
+              <span class="material-symbols-outlined faq__icon">expand_more</span>
+            </summary>
+            <p>Notre structure tarifaire est transparente : pas de frais d'ouverture, pas de frais de tenue de compte. Nous prélevons une commission de gestion annuelle de 0,5% sur les actifs sous gestion pour les comptes standards, et dégressive pour les portefeuilles plus importants.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta__box">
+          <div class="cta__pattern"></div>
+          <h2>Prêt à optimiser vos finances ?</h2>
+          <p>Ouvrez votre compte en moins de 10 minutes et commencez à investir comme un professionnel.</p>
+          <button type="button" class="btn btn--green btn--lg">Créer mon compte gratuitement</button>
+          <p class="cta__trust">
+            <span class="material-symbols-outlined">lock</span>
+            Chiffrement SSL 256 bits · Pas de frais cachés
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <p class="footer__logo">FinPrecision</p>
+        <p class="footer__copy">© 2024 FinPrecision. Tous droits réservés. Chiffrement SSL 256 bits.</p>
+        <p class="footer__credit">Designed by Tchassama.N </p>
+      </div>
+      <nav class="footer__links">
+        <a href="#">Sécurité</a>
+        <a href="#">Mentions Légales</a>
+        <a href="#">Confidentialité</a>
+        <a href="#">Contact</a>
+        <a href="#">Aide</a>
+      </nav>
+      <div class="footer__social">
+        <span class="material-symbols-outlined">public</span>
+        <span class="material-symbols-outlined">currency_exchange</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
